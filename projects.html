@@ -1,0 +1,124 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的技能与项目</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>我的个人主页</h2>
+
+        <nav>
+            <a href="index.html">个人介绍</a>
+            <a href="projects.html">技能与项目</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="skills">
+            <h1>我的技能栈</h1>
+            <p>目前正在学习和掌握以下技术：</p>
+
+            <div class="card-grid">
+
+                <div class="card">
+                    <h3>HTML</h3>
+                    <p>掌握网页基本结构和常用标签。</p>
+                </div>
+
+                <div class="card">
+                    <h3>CSS</h3>
+                    <p>掌握文字、颜色、布局和网页美化。</p>
+                </div>
+
+                <div class="card">
+                    <h3>JavaScript</h3>
+                    <p>学习按钮交互和网页动态效果。</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="projects">
+
+            <h1>第一阶段项目展示</h1>
+
+            <div class="project-card">
+
+                <p class="tag">FIRST PROJECT</p>
+
+                <h2>个人作品展示网站</h2>
+
+                <p>
+                    本项目使用 HTML、CSS 和 JavaScript 开发，
+                    主要用于展示个人介绍、学习技能和项目成果。
+                </p>
+
+                <h3>项目功能</h3>
+
+                <ul>
+                    <li>个人信息展示</li>
+                    <li>技能栈展示</li>
+                    <li>两个页面之间相互跳转</li>
+                    <li>点击按钮展开项目详情</li>
+                    <li>适配电脑和手机屏幕</li>
+                </ul>
+
+                <p>
+                    <strong>使用技术：</strong>
+                    HTML、CSS、JavaScript
+                </p>
+
+                <button id="detailBtn">
+                    查看项目详情
+                </button>
+
+                <div id="detail" class="detail hidden">
+
+                    <h3>项目实现思路</h3>
+
+                    <p>第一步：使用 HTML 搭建网页结构。</p>
+
+                    <p>第二步：使用 CSS 设置页面样式。</p>
+
+                    <p>第三步：使用 JavaScript 实现点击交互。</p>
+
+                    <p>第四步：使用响应式布局适配手机屏幕。</p>
+
+                    <p>第五步：使用 GitHub Pages 部署网站。</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="practice">
+
+            <h2>网络请求练习</h2>
+
+            <p>点击按钮，测试一次不存在的文件请求。</p>
+
+            <button id="fetchBtn">测试404请求</button>
+
+            <p id="fetchResult">等待测试……</p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 我的个人网站</p>
+        <a href="index.html">返回个人介绍</a>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
